@@ -32,6 +32,7 @@ body {
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
+
 .navbar-text:hover {
   color: #ffffff;
   cursor: pointer;
@@ -55,6 +56,7 @@ body {
   margin-right: 50px;
   margin-left: 100px;
 }
+
 #delivery:hover {
   color: #ffffff;
   background: orangered;
@@ -68,6 +70,14 @@ body {
   margin-bottom: -50%;
 }
 
+#initially-showing {
+  display: none;
+}
+
+#about {
+  color: white;
+  border: palevioletred;
+}
 .card-footer {
   background-color: grey;
   color: black;
